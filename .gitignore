@@ -1,0 +1,25 @@
+# Data
+data/
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.joblib
+*.h5
+*.sqlite
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
