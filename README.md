@@ -1,9 +1,9 @@
-# Home Credit Default Risk — EDA (Kaggle)
+# Home Credit Default Risk —(Kaggle)
 
-Este repositorio contiene un **notebook de exploración y preparación de datos (EDA)** para la competición/dataset **Home Credit Default Risk** de Kaggle.
+Este repositorio contiene un **notebook** para la competición/dataset **Home Credit Default Risk** de Kaggle. La competición había finalizado cuando se envió el archivo csv generado por el modelo incluido en el notebook, pero Kaggle la evaluó con un Private Score de 0,79505, correspondiente al puesto 564 de 7180 envíos a fecha de hoy, 12 de febrero de 2026, lo que supone estar en el top 10% de archivos enviados.
 
 ## Qué hay aquí
-- `notebooks/home_credit_eda.ipynb`: notebook principal (EDA).
+- `notebooks/home_credit_eda.ipynb`: notebook enviado. 
 - `requirements.txt`: dependencias para reproducir el entorno.
 - `reports/figures/`: carpeta para guardar imágenes/exportaciones (opcional).
 - `src/`: código auxiliar (opcional; por ahora vacío).
@@ -40,11 +40,13 @@ pip install -r requirements.txt
 jupyter lab
 ```
 
-y abre `notebooks/home_credit_eda.ipynb`.
+y abre `notebooks/home_credit_risk_notebook.ipynb`.
 
 ## Resultados
-- Este repo está enfocado a EDA / limpieza / análisis de variables.
-- Si más adelante añades modelado (baseline + CV + AUC), crea un notebook extra (por ejemplo `notebooks/02_modeling.ipynb`) y resume métricas aquí.
+
+- **Kaggle (Private Score): 0.79505**
+- **Ranking:** 564 / 7180 (≈ top 8%) — **12/02/2026**
+- Pipeline: **EDA → limpieza → feature engineering / preparación → modelo → submission**.
 
 ## Autor
-Nacho
+José Ignacio Gavara
