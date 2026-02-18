@@ -4,10 +4,6 @@
 Proyecto de *Machine Learning* basado en la competición/dataset **Home Credit Default Risk** de Kaggle.  
 El notebook implementa un flujo completo: **EDA → limpieza → preparación/feature engineering → entrenamiento → generación de submission**.
 
-**Resultado (Private Score): 0.79505**  
-**Ranking:** 564 / 7180 (≈ top 8%) — **12/02/2026**
-
-
 
 ## Estructura del repositorio
 - `notebooks/home_credit_risk_notebook.ipynb`: notebook principal del proyecto.
